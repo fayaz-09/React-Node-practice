@@ -164,7 +164,6 @@
 
   /* Styles for the sites Homepage */
   .home{
-
     .posts{
       margin-top: 50px;
       display: flex;
@@ -206,11 +205,151 @@
           display: flex;
           flex-direction: column;
           justify-content: space-between;
+        }
 
+        .content h1{
+          font-size: 48px;
+        }
+
+        .content p{
+          font-size: 18px;
+        }
+
+        .content button{
+          width: max-content;
+          padding: 10px 20px;
+          border: none;
+          cursor: pointer;
+          background-color: white;
+          border:  1px solid teal;
+          color: teal;
+
+          &:hover{
+            border: 1px solid white;
+            background-color: #b9e7e7;
+            color: black;
+          }
         }
       }
     }
   }
+
+  /* Styles for the sites individual pages */
+
+  .single{
+    display: flex;
+    gap: 50px;
+
+    .content{
+      flex: 5;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      .user{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 14px;
+      }
+      .user img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .user span{
+        font-weight: bold;
+      }
+
+      .edit{
+        display: flex;
+        gap: 5px;
+      }
+      .edit img{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+      }
+
+    }
+
+    .content img{
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .content h1{
+      font-size: 42px;
+      color: #333;
+    }
+    .content p{
+      text-align: justify;
+      line-height: 30px;
+    }
+
+    .menu{
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .post{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+
+      .post img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .post h2{
+        color: #555;
+      }
+
+      .post button{
+        width: max-content;
+        padding: 7.5px 15px;
+        border: none;
+        cursor: pointer;
+        background-color: white;
+        border:  1px solid teal;
+        color: teal;
+
+        &:hover{
+          border: 1px solid white;
+          background-color: #b9e7e7;
+          color: black;
+        }
+      }
+
+    }
+    .menu h1{
+      font-size: 20px;
+      color: #555;
+    }
+  }
+
+  .add{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+
+    .content{
+      flex: 5;
+    }
+
+    .menu{
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
 }
 
 
