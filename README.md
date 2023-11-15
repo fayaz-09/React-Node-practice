@@ -1,3 +1,7 @@
+This is a practice project which was built to learn about using javascript, react.js, node.js and an SQL database to create a blog site. It features the ability to allow users to register then login or logout at any time. 
+Users can then create posts on the site and have it be uploaded to an sql database. Users can edit/delete posts so long as it was created by them.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
